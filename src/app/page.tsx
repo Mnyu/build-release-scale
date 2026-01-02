@@ -1,11 +1,11 @@
-import { ThemeSwitcher } from "@/components/theme-switcher";
-import { Button } from "@/components/ui/button";
+import Hero from "@/components/hero";
+import Navbar from "@/components/navbar";
 
 export default function Home() {
   return (
-    <div>
-      <Button variant="link">Click Me</Button>
-      <ThemeSwitcher />
-    </div>
+    <>
+      <Navbar />
+      <Hero />
+    </>
   );
 }
