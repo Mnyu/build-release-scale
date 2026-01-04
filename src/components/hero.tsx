@@ -3,12 +3,16 @@ import { cn } from "@/lib/utils";
 import { Dock, DockIcon } from "./ui/dock";
 import { buttonVariants } from "./ui/button";
 import Navbar from "./navbar";
+import ScrollButton from "./scroll-button";
 import HeroTypewriter from "./hero-typewriter";
 import { NAVIGATION_DATA } from "@/data";
 
 const Hero = () => {
   return (
-    <section className="bg-[url('/images/hero.png')] bg-no-repeat bg-cover bg-bottom w-full h-screen">
+    <section
+      id="intro"
+      className="h-screen snap-start bg-[url('/images/hero.png')] bg-no-repeat bg-cover bg-bottom w-full h-screen"
+    >
       <div className="w-full h-full flex flex-col items-start">
         <Navbar />
         <div className=" w-full h-full flex flex-col justify-between">
@@ -16,6 +20,16 @@ const Hero = () => {
             <h1 className="text-white text-7xl font-bold">Abhimanyu Gupta</h1>
             <div className="pt-4">
               <HeroTypewriter />
+            </div>
+            <div className="pt-4">
+              <ScrollButton scrollToId="projects" variant="secondary">
+                Projects
+              </ScrollButton>
+            </div>
+            <div className="pt-4">
+              <ScrollButton scrollToId="casestudies" variant="secondary">
+                Case Studies
+              </ScrollButton>
             </div>
           </div>
           <div className="w-full flex flex-col justify-end">
