@@ -1,10 +1,10 @@
-import Hero from "@/components/hero";
+import Intro from "@/components/intro";
 import ScrollButton from "@/components/scroll-button";
 
 const Home = () => {
   return (
     <main className="h-screen overflow-y-scroll snap-y snap-mandatory">
-      <Hero />
+      <Intro />
       <section id="projects" className="h-screen snap-start">
         Projects
         <div className="pt-4">
