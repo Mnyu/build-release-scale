@@ -1,11 +1,11 @@
 import Hero from "@/components/hero";
-import Navbar from "@/components/navbar";
 
-export default function Home() {
+const Home = () => {
   return (
     <>
-      <Navbar />
       <Hero />
     </>
   );
-}
+};
+
+export default Home;
