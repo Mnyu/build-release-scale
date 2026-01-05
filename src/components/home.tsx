@@ -4,14 +4,14 @@ import { Dock, DockIcon } from "./ui/dock";
 import { buttonVariants } from "./ui/button";
 import Navbar from "./navbar";
 import ScrollButton from "./scroll-button";
-import IntroTypewriter from "./intro-typewriter";
+import HomeTypewriter from "./home-typewriter";
 import { NAVIGATION_DATA } from "@/data";
 
-const Intro = () => {
+const Home = () => {
   return (
     <section
-      id="intro"
-      className="h-screen snap-start bg-[url('/images/intro.png')] bg-no-repeat bg-cover bg-bottom w-full h-screen"
+      id="home"
+      className="h-screen snap-start bg-[url('/images/home.png')] bg-no-repeat bg-cover bg-bottom w-full h-screen"
     >
       <div className="w-full h-full flex flex-col items-start">
         <Navbar />
@@ -19,7 +19,7 @@ const Intro = () => {
           <div className="pt-15 pl-40">
             <h1 className="text-white text-7xl font-bold">Abhimanyu Gupta</h1>
             <div className="pt-4">
-              <IntroTypewriter />
+              <HomeTypewriter />
             </div>
             <div className="pt-4">
               <ScrollButton scrollToId="projects" variant="secondary">
@@ -27,7 +27,7 @@ const Intro = () => {
               </ScrollButton>
             </div>
             <div className="pt-4">
-              <ScrollButton scrollToId="casestudies" variant="secondary">
+              <ScrollButton scrollToId="case-studies" variant="secondary">
                 Case Studies
               </ScrollButton>
             </div>
@@ -56,4 +56,4 @@ const Intro = () => {
     </section>
   );
 };
-export default Intro;
+export default Home;

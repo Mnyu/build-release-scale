@@ -52,7 +52,7 @@ export const NAVIGATION_DATA: NavigationData = {
 };
 
 export const NAVIGATION_ITEMS: Navigation[] = [
-  { label: "Home", url: "/#intro", icon: Icons.Home },
+  { label: "Home", url: "/#home", icon: Icons.Home },
   { label: "Experience", url: "/#experience", icon: Icons.IdCard },
   { label: "AI Agents", url: "/#ai-agents", icon: Icons.Bot },
   { label: "Case Studies", url: "/#case-studies", icon: Icons.Rocket },

@@ -1,12 +1,12 @@
 import AiAgents from "@/components/ai-agents";
-import Intro from "@/components/intro";
+import Home from "@/components/home";
 import Sidebar from "@/components/sidebar";
 
-const Home = () => {
+const Page = () => {
   return (
     <main className="h-screen overflow-y-scroll snap-y snap-mandatory">
       <Sidebar />
-      <Intro />
+      <Home />
       <section id="experience" className="h-screen snap-start">
         <h1 className="text-center pt-2">Experience</h1>
       </section>
@@ -21,4 +21,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Page;

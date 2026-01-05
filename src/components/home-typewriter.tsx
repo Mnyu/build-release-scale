@@ -4,7 +4,7 @@ import { Cursor, useTypewriter } from "react-simple-typewriter";
 
 const colors = ["#ff79c6", "#50fa7b", "#f1fa8c"];
 
-const IntroTypewriter = () => {
+const HomeTypewriter = () => {
   const [text] = useTypewriter({
     words: ["Build.Release.Scale"],
     loop: false,
@@ -24,4 +24,4 @@ const IntroTypewriter = () => {
     </>
   );
 };
-export default IntroTypewriter;
+export default HomeTypewriter;
