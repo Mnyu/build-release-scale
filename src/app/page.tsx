@@ -1,35 +1,21 @@
+import AiAgents from "@/components/ai-agents";
 import Intro from "@/components/intro";
-import ScrollButton from "@/components/scroll-button";
+import Sidebar from "@/components/sidebar";
 
 const Home = () => {
   return (
     <main className="h-screen overflow-y-scroll snap-y snap-mandatory">
+      <Sidebar />
       <Intro />
-      <section id="projects" className="h-screen snap-start">
-        Projects
-        <div className="pt-4">
-          <ScrollButton scrollToId="intro" variant="outline">
-            Intro
-          </ScrollButton>
-        </div>
-        <div className="pt-4">
-          <ScrollButton scrollToId="casestudies" variant="outline">
-            Case Studies
-          </ScrollButton>
-        </div>
+      <section id="experience" className="h-screen snap-start">
+        <h1 className="text-center pt-2">Experience</h1>
       </section>
-      <section id="casestudies" className="h-screen snap-start">
-        Case Studies
-        <div className="pt-4">
-          <ScrollButton scrollToId="intro" variant="outline">
-            Intro
-          </ScrollButton>
-        </div>
-        <div className="pt-4">
-          <ScrollButton scrollToId="projects" variant="outline">
-            Projects
-          </ScrollButton>
-        </div>
+      <AiAgents />
+      <section id="case-studies" className="h-screen snap-start">
+        <h1 className="text-center pt-2">Case Studies</h1>
+      </section>
+      <section id="projects" className="h-screen snap-start">
+        <h1 className="text-center pt-2">Projects</h1>
       </section>
     </main>
   );

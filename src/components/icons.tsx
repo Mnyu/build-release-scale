@@ -1,13 +1,30 @@
-import { CalendarIcon, HomeIcon, MailIcon, PencilIcon } from "lucide-react";
+import {
+  ArrowRight,
+  BotIcon,
+  CalendarIcon,
+  GlobeIcon,
+  HomeIcon,
+  IdCardLanyardIcon,
+  MailIcon,
+  PencilIcon,
+  RocketIcon,
+  SquareCodeIcon,
+} from "lucide-react";
 
 export type IconProps = React.HTMLAttributes<SVGElement>;
 
 export const Icons = {
-  home: (props: IconProps) => <HomeIcon {...props} />,
-  edit: (props: IconProps) => <PencilIcon {...props} />,
-  calendar: (props: IconProps) => <CalendarIcon {...props} />,
-  email: (props: IconProps) => <MailIcon {...props} />,
-  linkedin: (props: IconProps) => (
+  Home: (props: IconProps) => <HomeIcon {...props} />,
+  Edit: (props: IconProps) => <PencilIcon {...props} />,
+  IdCard: (props: IconProps) => <IdCardLanyardIcon {...props} />,
+  Bot: (props: IconProps) => <BotIcon {...props} />,
+  Rocket: (props: IconProps) => <RocketIcon {...props} />,
+  SquareCode: (props: IconProps) => <SquareCodeIcon {...props} />,
+  Calendar: (props: IconProps) => <CalendarIcon {...props} />,
+  Email: (props: IconProps) => <MailIcon {...props} />,
+  Live: (props: IconProps) => <GlobeIcon {...props} />,
+  ArrowRight: (props: IconProps) => <ArrowRight {...props} />,
+  Linkedin: (props: IconProps) => (
     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}>
       <title>LinkedIn</title>
       <path
@@ -16,7 +33,7 @@ export const Icons = {
       />
     </svg>
   ),
-  x: (props: IconProps) => (
+  X: (props: IconProps) => (
     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}>
       <title>X</title>
       <path
@@ -25,7 +42,7 @@ export const Icons = {
       />
     </svg>
   ),
-  youtube: (props: IconProps) => (
+  Youtube: (props: IconProps) => (
     <svg
       width="32px"
       height="32px"
@@ -38,7 +55,7 @@ export const Icons = {
       <path d="M29.41,9.26a3.5,3.5,0,0,0-2.47-2.47C24.76,6.2,16,6.2,16,6.2s-8.76,0-10.94.59A3.5,3.5,0,0,0,2.59,9.26,36.13,36.13,0,0,0,2,16a36.13,36.13,0,0,0,.59,6.74,3.5,3.5,0,0,0,2.47,2.47C7.24,25.8,16,25.8,16,25.8s8.76,0,10.94-.59a3.5,3.5,0,0,0,2.47-2.47A36.13,36.13,0,0,0,30,16,36.13,36.13,0,0,0,29.41,9.26ZM13.2,20.2V11.8L20.47,16Z" />
     </svg>
   ),
-  github: (props: IconProps) => (
+  Github: (props: IconProps) => (
     <svg viewBox="0 0 438.549 438.549" {...props}>
       <path
         fill="currentColor"
