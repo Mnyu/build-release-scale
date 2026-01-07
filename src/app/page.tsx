@@ -1,4 +1,5 @@
 import AiAgents from "@/components/ai-agents";
+import Experience from "@/components/experience";
 import Home from "@/components/home";
 import Sidebar from "@/components/sidebar";
 
@@ -7,9 +8,7 @@ const Page = () => {
     <main className="h-screen overflow-y-scroll snap-y snap-mandatory">
       <Sidebar />
       <Home />
-      <section id="experience" className="h-screen snap-start">
-        <h1 className="text-center pt-2">Experience</h1>
-      </section>
+      <Experience />
       <AiAgents />
       <section id="case-studies" className="h-screen snap-start">
         <h1 className="text-center pt-2">Case Studies</h1>
