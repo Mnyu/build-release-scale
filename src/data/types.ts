@@ -1,28 +1,33 @@
 import { JSX } from "react";
 import { IconProps } from "@/components/icons";
 
-export type Navigation = {
+export interface Navigation {
   label: string;
   url: string;
   icon: (props: IconProps) => JSX.Element;
-};
-export type NagigationGroup = {
+}
+export interface NagigationGroup {
   [navigationKey: string]: Navigation;
-};
+}
 
-export type NavigationData = {
+export interface NavigationData {
   [groupName: string]: NagigationGroup;
-};
+}
 
-export type Technology = {
+export interface Technology {
   id: string;
   iconPath: string;
-};
+}
 
-export type Agent = {
+export interface Project {
   id: string;
   title: string;
   description: string;
   imageUrl: string;
   technologies: Technology[];
-};
+}
+
+export interface Agent {
+  id: string;
+  name: string;
+}
