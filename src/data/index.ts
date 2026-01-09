@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { Agent, Navigation, NavigationData } from "./types";
+import { Project, Navigation, NavigationData, Agent } from "./types";
 
 export const NAVIGATION_DATA: NavigationData = {
   internal: {
@@ -46,65 +46,71 @@ export const NAVIGATION_ITEMS: Navigation[] = [
   { label: "Projects", url: "/#projects", icon: Icons.SquareCode },
 ];
 
+export const PROJECTS: Project[] = [
+  {
+    id: "project1",
+    title: "Project 1",
+    description: "This is description of Project 1",
+    imageUrl: "/images/bot.svg",
+    technologies: [
+      { id: "project-1-openai", iconPath: "/icons/openai.png" },
+      { id: "project-1-js", iconPath: "/icons/js.svg" },
+    ],
+  },
+  {
+    id: "project2",
+    title: "Project 2",
+    description: "This is description of Project 2",
+    imageUrl: "/images/bot.svg",
+    technologies: [
+      { id: "project-2-openai", iconPath: "/icons/openai.png" },
+      { id: "project-2-js", iconPath: "/icons/js.svg" },
+    ],
+  },
+  {
+    id: "project3",
+    title: "Project 3",
+    description: "This is description of Project 3",
+    imageUrl: "/images/bot.svg",
+    technologies: [
+      { id: "project-3-openai", iconPath: "/icons/openai.png" },
+      { id: "project-3-js", iconPath: "/icons/js.svg" },
+    ],
+  },
+  {
+    id: "project4",
+    title: "Project 4",
+    description: "This is description of Project 4",
+    imageUrl: "/images/bot.svg",
+    technologies: [
+      { id: "project-4-openai", iconPath: "/icons/openai.png" },
+      { id: "project-4-js", iconPath: "/icons/js.svg" },
+    ],
+  },
+  {
+    id: "project5",
+    title: "Project 5",
+    description: "This is description of Project 5",
+    imageUrl: "/images/bot.svg",
+    technologies: [
+      { id: "project-5-openai", iconPath: "/icons/openai.png" },
+      { id: "project-5-js", iconPath: "/icons/js.svg" },
+    ],
+  },
+  {
+    id: "project6",
+    title: "Project 6",
+    description: "This is description of Project 6",
+    imageUrl: "/images/bot.svg",
+    technologies: [
+      { id: "project-6-openai", iconPath: "/icons/openai.png" },
+      { id: "project-6-js", iconPath: "/icons/js.svg" },
+    ],
+  },
+];
+
 export const AGENTS: Agent[] = [
-  {
-    id: "agent1",
-    title: "Agent 1",
-    description: "This is description of Agent 1",
-    imageUrl: "/images/bot.svg",
-    technologies: [
-      { id: "agent-1-openai", iconPath: "/icons/openai.png" },
-      { id: "agent-1-js", iconPath: "/icons/js.svg" },
-    ],
-  },
-  {
-    id: "agent2",
-    title: "Agent 2",
-    description: "This is description of Agent 2",
-    imageUrl: "/images/bot.svg",
-    technologies: [
-      { id: "agent-2-openai", iconPath: "/icons/openai.png" },
-      { id: "agent-2-js", iconPath: "/icons/js.svg" },
-    ],
-  },
-  {
-    id: "agent3",
-    title: "Agent 3",
-    description: "This is description of Agent 3",
-    imageUrl: "/images/bot.svg",
-    technologies: [
-      { id: "agent-3-openai", iconPath: "/icons/openai.png" },
-      { id: "agent-3-js", iconPath: "/icons/js.svg" },
-    ],
-  },
-  {
-    id: "agent4",
-    title: "Agent 4",
-    description: "This is description of Agent 4",
-    imageUrl: "/images/bot.svg",
-    technologies: [
-      { id: "agent-4-openai", iconPath: "/icons/openai.png" },
-      { id: "agent-4-js", iconPath: "/icons/js.svg" },
-    ],
-  },
-  {
-    id: "agent5",
-    title: "Agent 5",
-    description: "This is description of Agent 5",
-    imageUrl: "/images/bot.svg",
-    technologies: [
-      { id: "agent-5-openai", iconPath: "/icons/openai.png" },
-      { id: "agent-5-js", iconPath: "/icons/js.svg" },
-    ],
-  },
-  {
-    id: "agent6",
-    title: "Agent 6",
-    description: "This is description of Agent 6",
-    imageUrl: "/images/bot.svg",
-    technologies: [
-      { id: "agent-6-openai", iconPath: "/icons/openai.png" },
-      { id: "agent-6-js", iconPath: "/icons/js.svg" },
-    ],
-  },
+  { id: "agent1", name: "Agent 1" },
+  { id: "agent2", name: "Agent 2" },
+  { id: "agent3", name: "Agent 3" },
 ];

@@ -3,14 +3,14 @@ import { ArrowRight, BotMessageSquare } from "lucide-react";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "./ui/card";
 import { Technology } from "@/data/types";
 
-interface AiAgentProps {
+interface ProjectProps {
   title: string;
   description: string;
   imageUrl: string;
   technologies: Technology[];
 }
 
-const AiAgent = ({ title, description, imageUrl, technologies }: AiAgentProps) => {
+const Project = ({ title, description, imageUrl, technologies }: ProjectProps) => {
   return (
     <Card className="h-60 xl:h-75 py-0 gap-3 flex flex-col justify-between">
       <CardContent className="px-0">
@@ -40,4 +40,4 @@ const AiAgent = ({ title, description, imageUrl, technologies }: AiAgentProps) =
     </Card>
   );
 };
-export default AiAgent;
+export default Project;
