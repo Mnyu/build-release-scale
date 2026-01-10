@@ -180,3 +180,43 @@
 html {
   scroll-behavior: smooth;
 }
+
+/* NEXTRA */
+.nextra-border {
+  border-color: var(--border);
+}
+
+.nextra-sidebar li button {
+  color: var(--card-foreground);
+}
+
+.nextra-sidebar li a {
+  color: var(--card-foreground);
+}
+
+.nextra-sidebar li.open ul::before {
+  background-color: var(--border);
+}
+
+.nextra-sidebar li.active a {
+  background-color: var(--secondary);
+  color: var(--primary);
+}
+
+.dark .nextra-sidebar li.active a {
+  background-color: #313231;
+  color: var(--primary);
+}
+
+/* Remove # symbol appearing next to the heading when we hover or when the heading is in focus in the content section */
+:hover > .subheading-anchor {
+  opacity: 0%;
+  display: none;
+}
+.subheading-anchor {
+  :target > &,
+  &:focus {
+    opacity: 0;
+    display: none;
+  }
+}

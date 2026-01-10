@@ -6,4 +6,7 @@ export default {
   oracle: {
     title: "Oracle",
   },
+  postgres: {
+    title: "Postgres",
+  },
 };
