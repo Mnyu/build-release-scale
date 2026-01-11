@@ -10,7 +10,7 @@ interface ProjectProps {
   technologies: Technology[];
 }
 
-const Project = ({ title, description, imageUrl, technologies }: ProjectProps) => {
+const CaseStudy = ({ title, description, imageUrl, technologies }: ProjectProps) => {
   return (
     <Card className="h-60 xl:h-75 py-0 gap-3 flex flex-col justify-between">
       <CardContent className="px-0">
@@ -26,13 +26,13 @@ const Project = ({ title, description, imageUrl, technologies }: ProjectProps) =
           <h1 className="py-2 font-semibold">Technologies</h1>
           <div className="flex gap-2">
             {technologies.map((tech) => (
-              <img key={tech.id} src={tech.iconPath} alt="" width={25} height={20} />
+              <img key={tech.id} src={tech.iconPath} alt="" width={25} height={40} />
             ))}
           </div>
         </CardDescription>
       </CardHeader>
       <CardFooter className="p-1 flex justify-end items-center">
-        <Link href="/" className="flex text-xs">
+        <Link href="/" className="flex text-xs text-muted-foreground">
           View Details
           <ArrowRight size={15} />
         </Link>
@@ -40,4 +40,4 @@ const Project = ({ title, description, imageUrl, technologies }: ProjectProps) =
     </Card>
   );
 };
-export default Project;
+export default CaseStudy;

@@ -19,7 +19,7 @@ export interface Technology {
   iconPath: string;
 }
 
-export interface Project {
+export interface CaseStudy {
   id: string;
   title: string;
   description: string;

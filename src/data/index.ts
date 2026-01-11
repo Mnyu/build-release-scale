@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { Project, Navigation, NavigationData, Agent } from "./types";
+import { CaseStudy, Navigation, NavigationData, Agent } from "./types";
 
 export const NAVIGATION_DATA: NavigationData = {
   internal: {
@@ -46,65 +46,55 @@ export const NAVIGATION_ITEMS: Navigation[] = [
   { label: "Projects", url: "/#projects", icon: Icons.SquareCode },
 ];
 
-export const PROJECTS: Project[] = [
+export const CASE_STUDIES: CaseStudy[] = [
   {
-    id: "project1",
-    title: "Project 1",
-    description: "This is description of Project 1",
+    id: "casestudy1",
+    title: "Case Study 1",
+    description: "This is description of Case Study 1",
     imageUrl: "/images/bot.svg",
     technologies: [
-      { id: "project-1-openai", iconPath: "/icons/openai.png" },
-      { id: "project-1-js", iconPath: "/icons/js.svg" },
+      { id: "casestudy-1-ai", iconPath: "https://skillicons.dev/icons?i=ai" },
+      { id: "casestudy-1-js", iconPath: "https://skillicons.dev/icons?i=ts" },
     ],
   },
   {
-    id: "project2",
-    title: "Project 2",
-    description: "This is description of Project 2",
+    id: "casestudy2",
+    title: "Case Study 2",
+    description: "This is description of Case Study 2",
     imageUrl: "/images/bot.svg",
     technologies: [
-      { id: "project-2-openai", iconPath: "/icons/openai.png" },
-      { id: "project-2-js", iconPath: "/icons/js.svg" },
+      { id: "casestudy-2-ai", iconPath: "https://skillicons.dev/icons?i=ai" },
+      { id: "casestudy-2-js", iconPath: "https://skillicons.dev/icons?i=ts" },
     ],
   },
   {
-    id: "project3",
-    title: "Project 3",
-    description: "This is description of Project 3",
+    id: "casestudy3",
+    title: "Case Study 3",
+    description: "This is description of Case Study 3",
     imageUrl: "/images/bot.svg",
     technologies: [
-      { id: "project-3-openai", iconPath: "/icons/openai.png" },
-      { id: "project-3-js", iconPath: "/icons/js.svg" },
+      { id: "casestudy-3-ai", iconPath: "https://skillicons.dev/icons?i=ai" },
+      { id: "casestudy-3-js", iconPath: "https://skillicons.dev/icons?i=ts" },
     ],
   },
   {
-    id: "project4",
-    title: "Project 4",
-    description: "This is description of Project 4",
+    id: "casestudy4",
+    title: "Case Study 4",
+    description: "This is description of Case Study 4",
     imageUrl: "/images/bot.svg",
     technologies: [
-      { id: "project-4-openai", iconPath: "/icons/openai.png" },
-      { id: "project-4-js", iconPath: "/icons/js.svg" },
+      { id: "casestudy-4-ai", iconPath: "https://skillicons.dev/icons?i=ai" },
+      { id: "casestudy-4-js", iconPath: "https://skillicons.dev/icons?i=ts" },
     ],
   },
   {
-    id: "project5",
-    title: "Project 5",
-    description: "This is description of Project 5",
+    id: "casestudy5",
+    title: "Case Study 5",
+    description: "This is description of Case Study 5",
     imageUrl: "/images/bot.svg",
     technologies: [
-      { id: "project-5-openai", iconPath: "/icons/openai.png" },
-      { id: "project-5-js", iconPath: "/icons/js.svg" },
-    ],
-  },
-  {
-    id: "project6",
-    title: "Project 6",
-    description: "This is description of Project 6",
-    imageUrl: "/images/bot.svg",
-    technologies: [
-      { id: "project-6-openai", iconPath: "/icons/openai.png" },
-      { id: "project-6-js", iconPath: "/icons/js.svg" },
+      { id: "casestudy-5-ai", iconPath: "https://skillicons.dev/icons?i=ai" },
+      { id: "casestudy-5-js", iconPath: "https://skillicons.dev/icons?i=ts" },
     ],
   },
 ];
