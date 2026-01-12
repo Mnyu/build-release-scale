@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, BotMessageSquare } from "lucide-react";
+import { ArrowRightIcon, BotMessageSquare } from "lucide-react";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "./ui/card";
 import { Technology } from "@/data/types";
 
@@ -34,7 +34,7 @@ const CaseStudy = ({ title, description, imageUrl, technologies }: ProjectProps)
       <CardFooter className="p-1 flex justify-end items-center">
         <Link href="/" className="flex text-xs text-muted-foreground">
           View Details
-          <ArrowRight size={15} />
+          <ArrowRightIcon size={15} />
         </Link>
       </CardFooter>
     </Card>
