@@ -31,3 +31,13 @@ export interface Agent {
   id: string;
   name: string;
 }
+
+export interface Project {
+  id: string;
+  title: string;
+  description: string;
+  imageUrl: string;
+  link: string;
+  github: string;
+  technologies: Technology[];
+}

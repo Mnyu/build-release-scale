@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { CaseStudy, Navigation, NavigationData, Agent } from "./types";
+import { CaseStudy, Navigation, NavigationData, Agent, Project } from "./types";
 
 export const NAVIGATION_DATA: NavigationData = {
   internal: {
@@ -103,4 +103,51 @@ export const AGENTS: Agent[] = [
   { id: "agent1", name: "Agent 1" },
   { id: "agent2", name: "Agent 2" },
   { id: "agent3", name: "Agent 3" },
+];
+
+export const PROJECTS: Project[] = [
+  {
+    id: "chayanai",
+    title: "CHAYAN(चयन) AI",
+    description:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis numquam ex odit? Voluptate consequatur quod sunt dolores ipsa, quibusdam beatae odit numquam fugiat harum quo quasi aperiam. At accusantium eos.",
+    imageUrl: "/images/project1.png",
+    technologies: [
+      { id: "chayanaipy", iconPath: "https://skillicons.dev/icons?i=py" },
+      { id: "chayanaireact", iconPath: "https://skillicons.dev/icons?i=react" },
+      { id: "chayanaijs", iconPath: "https://skillicons.dev/icons?i=js" },
+      { id: "chayanaihtml", iconPath: "https://skillicons.dev/icons?i=html" },
+      { id: "chayanaicss", iconPath: "https://skillicons.dev/icons?i=css" },
+    ],
+    link: "/",
+    github: "/",
+  },
+  {
+    id: "vibely",
+    title: "VIBELY",
+    description:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis numquam ex odit? Voluptate consequatur quod sunt dolores ipsa, quibusdam beatae odit numquam fugiat harum quo quasi aperiam. At accusantium eos.",
+    imageUrl: "/images/project1.png",
+    technologies: [
+      { id: "vibelynextjs", iconPath: "https://skillicons.dev/icons?i=nextjs" },
+      { id: "vibelyts", iconPath: "https://skillicons.dev/icons?i=ts" },
+    ],
+    link: "/",
+    github: "/",
+  },
+  {
+    id: "project3",
+    title: "PROJECT 3",
+    description:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis numquam ex odit? Voluptate consequatur quod sunt dolores ipsa, quibusdam beatae odit numquam fugiat harum quo quasi aperiam. At accusantium eos.",
+    imageUrl: "/images/project1.png",
+    technologies: [
+      { id: "vibelyts", iconPath: "https://skillicons.dev/icons?i=ts" },
+      { id: "vibelyreact", iconPath: "https://skillicons.dev/icons?i=react" },
+      { id: "vibelyhtml", iconPath: "https://skillicons.dev/icons?i=html" },
+      { id: "vibelycss", iconPath: "https://skillicons.dev/icons?i=css" },
+    ],
+    link: "/",
+    github: "/",
+  },
 ];
