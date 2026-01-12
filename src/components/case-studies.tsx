@@ -10,16 +10,17 @@ const CaseStudies = () => {
       <div className="min-h-screen max-w-xl md:max-w-3xl lg:max-w-4xl mx-auto flex flex-col gap-10">
         <h1 className="text-center p-2">Case Studies</h1>
         <div className="w-full px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
-          {CASE_STUDIES.map(({ id, title, description, imageUrl, technologies }) => (
+          {CASE_STUDIES.map(({ id, title, description, imageUrl, link, technologies }) => (
             <CaseStudy
               key={id}
               title={title}
               description={description}
               imageUrl={imageUrl}
+              link={link}
               technologies={technologies}
             />
           ))}
-          <Card className="h-60 xl:h-75">
+          <Card className="h-60 xl:h-75 hover:border-ring lg:hover:scale-101 lg:ease-in-out lg:duration-100">
             <CardHeader className="w-full h-full flex justify-center items-center">
               <Link
                 href="/case-studies"

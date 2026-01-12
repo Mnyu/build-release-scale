@@ -50,51 +50,61 @@ export const CASE_STUDIES: CaseStudy[] = [
   {
     id: "casestudy1",
     title: "Case Study 1",
-    description: "This is description of Case Study 1",
+    description:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam labore, quaerat architecto culpa quas",
     imageUrl: "/images/bot.svg",
+    link: "/case-studies",
     technologies: [
-      { id: "casestudy-1-ai", iconPath: "https://skillicons.dev/icons?i=ai" },
-      { id: "casestudy-1-js", iconPath: "https://skillicons.dev/icons?i=ts" },
+      { id: "casestudy-1-go", iconPath: "https://skillicons.dev/icons?i=go" },
+      { id: "casestudy-1-pg", iconPath: "https://skillicons.dev/icons?i=postgres" },
     ],
   },
   {
     id: "casestudy2",
     title: "Case Study 2",
-    description: "This is description of Case Study 2",
+    description:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam labore, quaerat architecto culpa quas",
     imageUrl: "/images/bot.svg",
+    link: "/case-studies",
     technologies: [
-      { id: "casestudy-2-ai", iconPath: "https://skillicons.dev/icons?i=ai" },
-      { id: "casestudy-2-js", iconPath: "https://skillicons.dev/icons?i=ts" },
+      { id: "casestudy-2-go", iconPath: "https://skillicons.dev/icons?i=go" },
+      { id: "casestudy-2-pg", iconPath: "https://skillicons.dev/icons?i=postgres" },
     ],
   },
   {
     id: "casestudy3",
     title: "Case Study 3",
-    description: "This is description of Case Study 3",
+    description:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam labore, quaerat architecto culpa quas",
     imageUrl: "/images/bot.svg",
+    link: "/case-studies",
     technologies: [
-      { id: "casestudy-3-ai", iconPath: "https://skillicons.dev/icons?i=ai" },
-      { id: "casestudy-3-js", iconPath: "https://skillicons.dev/icons?i=ts" },
+      { id: "casestudy-3-go", iconPath: "https://skillicons.dev/icons?i=go" },
+      { id: "casestudy-3-pg", iconPath: "https://skillicons.dev/icons?i=postgres" },
     ],
   },
   {
     id: "casestudy4",
     title: "Case Study 4",
-    description: "This is description of Case Study 4",
+    description:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam labore, quaerat architecto culpa quas",
     imageUrl: "/images/bot.svg",
+    link: "/case-studies",
     technologies: [
-      { id: "casestudy-4-ai", iconPath: "https://skillicons.dev/icons?i=ai" },
-      { id: "casestudy-4-js", iconPath: "https://skillicons.dev/icons?i=ts" },
+      { id: "casestudy-4-go", iconPath: "https://skillicons.dev/icons?i=go" },
+      { id: "casestudy-4-pg", iconPath: "https://skillicons.dev/icons?i=postgres" },
     ],
   },
   {
     id: "casestudy5",
     title: "Case Study 5",
-    description: "This is description of Case Study 5",
+    description:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam labore, quaerat architecto culpa quas",
     imageUrl: "/images/bot.svg",
+    link: "/case-studies",
     technologies: [
-      { id: "casestudy-5-ai", iconPath: "https://skillicons.dev/icons?i=ai" },
-      { id: "casestudy-5-js", iconPath: "https://skillicons.dev/icons?i=ts" },
+      { id: "casestudy-5-go", iconPath: "https://skillicons.dev/icons?i=go" },
+      { id: "casestudy-5-pg", iconPath: "https://skillicons.dev/icons?i=postgres" },
     ],
   },
 ];

@@ -24,6 +24,7 @@ export interface CaseStudy {
   title: string;
   description: string;
   imageUrl: string;
+  link: string;
   technologies: Technology[];
 }
 
