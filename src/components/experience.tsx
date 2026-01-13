@@ -1,7 +1,10 @@
+import Heading from "./heading";
+
 const Experience = () => {
   return (
     <section id="experience" className="min-h-screen snap-start max-w-screen-xl mx-auto px-4 relative">
-      <h1 className="text-center px-4 pt-4 bg-background relative z-10">Experience</h1>
+      {/* <h1 className="text-center px-4 pt-4 bg-background relative z-10">Experience</h1> */}
+      <Heading className="bg-background relative z-10">Experience</Heading>
       <div className="flex items-center gap-50 mt-10 relative">
         <div className="h-[2px] bg-primary absolute top-1/2 left-1/4 right-1/2"></div>
         <div className="w-4 h-4 rounded-full border-2 border-foreground absolute left-1/2 -translate-x-1/2 bg-background z-10 hover:scale-110 ease-in-out duration-100"></div>

@@ -1,17 +1,16 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRightIcon, ExternalLinkIcon } from "lucide-react";
-import { Icons } from "./icons";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "./ui/card";
+import { Icons } from "./icons";
+import Heading from "./heading";
 import { PROJECTS } from "@/data";
 
 const Projects = () => {
   return (
     <section id="projects" className="snap-start">
       <div className="min-h-screen max-w-5xl mx-auto flex flex-col gap-5 px-5">
-        <div>
-          <h1 className="text-center p-2">Projects</h1>
-        </div>
+        <Heading>Projects</Heading>
         {PROJECTS.map((project) => (
           <div key={project.id} className="pt-5">
             <Card className="py-0 pt-3 gap-1 hover:border-ring">

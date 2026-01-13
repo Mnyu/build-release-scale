@@ -6,11 +6,11 @@ const Navbar = () => {
     <header className=" w-full">
       <nav className="flex items-center justify-between p-2">
         <Link href="/">LOGO</Link>
-        <div className="flex items-center justify-center gap-10">
+        {/* <div className="flex items-center justify-center gap-10">
           <Link href="/experience" className="font-semibold text-base text-white">
             Experience
           </Link>
-        </div>
+        </div> */}
         <ThemeSwitcher />
       </nav>
     </header>

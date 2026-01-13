@@ -1,11 +1,12 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs";
+import Heading from "./heading";
 import { AGENTS } from "@/data";
 
 const AiAgents = () => {
   return (
     <section id="ai-agents" className="h-screen snap-start">
-      <div className="h-full flex flex-col">
-        <h1 className="text-center p-2">AI Agents</h1>
+      <div className="h-full flex flex-col gap-5">
+        <Heading>AI Agents</Heading>
         <div className="w-full h-full max-w-5xl mx-auto border rounded-3xl">
           <Tabs defaultValue={AGENTS[0].id} className="h-full flex-row">
             <TabsList className="bg-background flex-col justify-start h-full py-15 px-5 border-r rounded-3xl">
